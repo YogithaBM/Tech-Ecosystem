@@ -1,4 +1,9 @@
 package com.thinkworks.techecosystem.sub;
 
-public class TechnicalWriter {
+import com.thinkworks.techecosystem.base.Entity;
+
+public class TechnicalWriter extends Entity {
+    public void writeDocumentation(){
+        System.out.println("TechnicalWriter is writing Documentation");
+    }
 }

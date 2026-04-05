@@ -1,4 +1,9 @@
 package com.thinkworks.techecosystem.sub;
 
-public class DataEngineer {
+import com.thinkworks.techecosystem.base.Entity;
+
+public class DataEngineer extends Entity {
+    public void buildPipeline(){
+        System.out.println("DataEngineer is building data pipelines");
+    }
 }

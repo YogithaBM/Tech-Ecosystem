@@ -1,4 +1,10 @@
 package com.thinkworks.techecosystem.sub;
 
-public class AutomationEngineer {
+import com.thinkworks.techecosystem.base.Entity;
+
+public class AutomationEngineer extends Entity {
+    public void writeScripts(){
+        System.out.println("AutomationEngineer is writing automation scripts");
+    }
+
 }
