@@ -11,4 +11,20 @@ public class SecurityEngineer extends Entity {
     public void performSecurityAudit(){
         System.out.println("Security Engineer is performing security checks");
     }
+
+
+    @Override
+    public void work() {
+        System.out.println("SecurityEngineer is working");
+    }
+
+    @Override
+    public void performRole() {
+        System.out.println("SecurityEngineer is performing");
+    }
+
+    @Override
+    public void reportStatus() {
+        System.out.println("SecurityEngineer is reporting");
+    }
 }

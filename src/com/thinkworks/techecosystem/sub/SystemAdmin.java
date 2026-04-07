@@ -11,4 +11,19 @@ public class SystemAdmin extends Entity {
     public void maintainServers(){
         System.out.println("System Admin is maintaining systems");
     }
+
+    @Override
+    public void work() {
+        System.out.println("SystemAdmin is working");
+    }
+
+    @Override
+    public void performRole() {
+        System.out.println("SystemAdmin is performing");
+    }
+
+    @Override
+    public void reportStatus() {
+        System.out.println("SystemAdmin is reporting");
+    }
 }

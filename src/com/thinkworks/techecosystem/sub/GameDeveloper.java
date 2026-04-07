@@ -11,5 +11,20 @@ public class GameDeveloper extends Entity {
     public void gaming(){
         System.out.println("GameDeveloper is developing game");
     }
+
+    @Override
+    public void work() {
+        System.out.println("GameDeveloper is working");
+    }
+
+    @Override
+    public void performRole() {
+        System.out.println("GameDeveloper is performing");
+    }
+
+    @Override
+    public void reportStatus() {
+        System.out.println("GameDeveloper is reporting");
+    }
 }
 

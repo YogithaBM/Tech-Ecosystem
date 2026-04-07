@@ -11,4 +11,19 @@ public class DataEngineer extends Entity {
     public void buildPipeline(){
         System.out.println("DataEngineer is building data pipelines");
     }
+
+    @Override
+    public void work() {
+        System.out.println("DataEngineer is working");
+    }
+
+    @Override
+    public void performRole() {
+        System.out.println("DataEngineer is performing");
+    }
+
+    @Override
+    public void reportStatus() {
+        System.out.println("DataEngineer is reporting");
+    }
 }

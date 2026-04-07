@@ -11,4 +11,19 @@ public class Recruiter extends Entity {
     public void hireCandidate(){
         System.out.println("Recruiter is hiring candidates");
     }
+
+    @Override
+    public void work() {
+        System.out.println("Recruiter is working");
+    }
+
+    @Override
+    public void performRole() {
+        System.out.println("Recruiter is performing");
+    }
+
+    @Override
+    public void reportStatus() {
+        System.out.println(" Recruiteris reporting");
+    }
 }

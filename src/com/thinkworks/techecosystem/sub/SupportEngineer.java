@@ -11,4 +11,19 @@ public class SupportEngineer extends Entity {
     public void solvingIssues(){
         System.out.println("Support Engineer is resolving issues");
     }
+
+    @Override
+    public void work() {
+        System.out.println("SupportEngineer is working");
+    }
+
+    @Override
+    public void performRole() {
+        System.out.println("SupportEngineer is performing");
+    }
+
+    @Override
+    public void reportStatus() {
+        System.out.println("SupportEngineer is reporting");
+    }
 }

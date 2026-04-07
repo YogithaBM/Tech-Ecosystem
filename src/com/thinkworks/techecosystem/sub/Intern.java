@@ -11,4 +11,19 @@ public class Intern extends Entity {
     public void assistTeam(){
         System.out.println("Intern is assisting the team");
     }
+
+    @Override
+    public void work() {
+        System.out.println("Intern is working");
+    }
+
+    @Override
+    public void performRole() {
+        System.out.println("Intern is performing");
+    }
+
+    @Override
+    public void reportStatus() {
+        System.out.println("Intern is reporting");
+    }
 }

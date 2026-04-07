@@ -11,4 +11,19 @@ public class QAEngineer extends Entity {
     public void ensuringQuality(){
         System.out.println("QA Engineer is ensuring quality");
     }
+
+    @Override
+    public void work() {
+        System.out.println("QAEngineer is working");
+    }
+
+    @Override
+    public void performRole() {
+        System.out.println("QAEngineer is performing");
+    }
+
+    @Override
+    public void reportStatus() {
+        System.out.println("QAEngineer is reporting");
+    }
 }

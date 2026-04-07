@@ -14,16 +14,16 @@ public class AutomationEngineer extends Entity {
 
     @Override
     public void work() {
-        System.out.println("is working");
+        System.out.println("AutomationEngineer is working");
     }
 
     @Override
     public void performRole() {
-        System.out.println("is performing");
+        System.out.println("AutomationEngineer is performing");
     }
 
     @Override
     public void reportStatus() {
-        System.out.println("is reporting");
+        System.out.println("AutomationEngineer is reporting");
     }
 }

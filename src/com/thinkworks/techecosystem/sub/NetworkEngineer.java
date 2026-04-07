@@ -11,4 +11,19 @@ public class NetworkEngineer extends Entity {
     public void configureNetwork(){
         System.out.println("Network Engineer is configuring network");
     }
+
+    @Override
+    public void work() {
+        System.out.println("NetworkEngineer is working");
+    }
+
+    @Override
+    public void performRole() {
+        System.out.println("NetworkEngineer is performing");
+    }
+
+    @Override
+    public void reportStatus() {
+        System.out.println("NetworkEngineer is reporting");
+    }
 }

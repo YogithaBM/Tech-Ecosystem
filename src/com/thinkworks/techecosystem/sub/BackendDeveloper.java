@@ -11,4 +11,19 @@ public class BackendDeveloper extends Entity {
     public void buildAPI(){
         System.out.println("BackendDeveloper is building APIS");
     }
+
+    @Override
+    public void work() {
+        System.out.println("BackendDeveloper is working");
+    }
+
+    @Override
+    public void performRole() {
+        System.out.println("BackendDeveloper is performing");
+    }
+
+    @Override
+    public void reportStatus() {
+        System.out.println("BackendDeveloper is reporting");
+    }
 }

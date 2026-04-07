@@ -11,4 +11,19 @@ public class ProductManager extends Entity {
     public void defineProductStrategy(){
         System.out.println("ProductManager is defining product strategy");
     }
+
+    @Override
+    public void work() {
+        System.out.println("ProductManager is working");
+    }
+
+    @Override
+    public void performRole() {
+        System.out.println("ProductManager is performing");
+    }
+
+    @Override
+    public void reportStatus() {
+        System.out.println("ProductManager is reporting");
+    }
 }

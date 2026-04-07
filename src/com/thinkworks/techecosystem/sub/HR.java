@@ -11,4 +11,19 @@ public class HR extends Entity {
     public void conductInterviews(){
         System.out.println("HR is conducting interviews");
     }
+
+    @Override
+    public void work() {
+        System.out.println("HR is working");
+    }
+
+    @Override
+    public void performRole() {
+        System.out.println("HR is performing");
+    }
+
+    @Override
+    public void reportStatus() {
+        System.out.println("HR is reporting");
+    }
 }

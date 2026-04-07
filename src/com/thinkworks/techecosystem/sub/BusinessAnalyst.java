@@ -11,4 +11,20 @@ public class BusinessAnalyst extends Entity {
     public void analyseRequirements(){
         System.out.println("Business Analyst is analyzing requirements");
     }
+
+    @Override
+    public void work() {
+        System.out.println("BusinessAnalyst is working");
+    }
+
+    @Override
+    public void performRole() {
+        System.out.println("BusinessAnalyst is performing");
+    }
+
+    @Override
+    public void reportStatus() {
+        System.out.println("BusinessAnalyst is reporting");
+    }
 }
+

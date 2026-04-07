@@ -11,4 +11,19 @@ public class BlockchainEngineer extends Entity {
     public void blockChaining(){
         System.out.println("BlockchainEngineer is developing block chain solutions");
     }
+    @Override
+    public void work() {
+        System.out.println("BlockchainEngineer is working");
+    }
+
+    @Override
+    public void performRole() {
+        System.out.println("BlockchainEngineer is performing");
+    }
+
+    @Override
+    public void reportStatus() {
+        System.out.println("BlockchainEngineer is reporting");
+    }
+
 }

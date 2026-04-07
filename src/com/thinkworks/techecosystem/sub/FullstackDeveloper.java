@@ -11,4 +11,19 @@ public class FullstackDeveloper extends Entity {
     public void handleFrontendAndBackend(){
         System.out.println("FullstackDeveloper is handing frontend and backend");
     }
+
+    @Override
+    public void work() {
+        System.out.println("FullstackDeveloper is working");
+    }
+
+    @Override
+    public void performRole() {
+        System.out.println("FullstackDeveloper is performing");
+    }
+
+    @Override
+    public void reportStatus() {
+        System.out.println("FullstackDeveloper is reporting");
+    }
 }

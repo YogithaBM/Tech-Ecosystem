@@ -11,4 +11,21 @@ public class Consultant extends Entity {
     public void provideSolution(){
         System.out.println("Consultant is providing solution");
     }
+
+    @Override
+    public void work() {
+        System.out.println("Consultant is working");
+    }
+
+    @Override
+    public void performRole() {
+        System.out.println("Consultant is performing");
+    }
+
+    @Override
+    public void reportStatus() {
+        System.out.println("Consultant is reporting");
+    }
+
+
 }

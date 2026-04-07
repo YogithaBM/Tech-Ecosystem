@@ -11,4 +11,19 @@ public class Developer extends Entity {
     public void writeCode(){
         System.out.println("Developer is writing Code");
     }
+
+    @Override
+    public void work() {
+        System.out.println("Developer is working");
+    }
+
+    @Override
+    public void performRole() {
+        System.out.println("Developer is performing");
+    }
+
+    @Override
+    public void reportStatus() {
+        System.out.println("Developer is reporting");
+    }
 }

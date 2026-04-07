@@ -12,4 +12,19 @@ public class TechnicalWriter extends Entity {
 
         System.out.println("TechnicalWriter is writing Documentation");
     }
+
+    @Override
+    public void work() {
+        System.out.println("TechnicalWriter is working");
+    }
+
+    @Override
+    public void performRole() {
+        System.out.println("TechnicalWriter is performing");
+    }
+
+    @Override
+    public void reportStatus() {
+        System.out.println("TechnicalWriter is reporting");
+    }
 }

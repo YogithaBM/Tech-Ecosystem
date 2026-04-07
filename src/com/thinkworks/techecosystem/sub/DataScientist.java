@@ -11,4 +11,19 @@ public class DataScientist extends Entity {
         System.out.println("DataScientist is analyzing data for insights");
     }
 
+    @Override
+    public void work() {
+        System.out.println("DataScientist is working");
+    }
+
+    @Override
+    public void performRole() {
+        System.out.println("DataScientist is performing");
+    }
+
+    @Override
+    public void reportStatus() {
+        System.out.println("DataScientist is reporting");
+    }
+
 }

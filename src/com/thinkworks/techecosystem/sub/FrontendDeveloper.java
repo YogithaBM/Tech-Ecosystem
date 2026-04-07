@@ -11,4 +11,19 @@ public class FrontendDeveloper extends Entity {
     public void designUI(){
         System.out.println("FrontendDeveloper is designing UIs");
     }
+
+    @Override
+    public void work() {
+        System.out.println("FrontendDeveloper is working");
+    }
+
+    @Override
+    public void performRole() {
+        System.out.println("FrontendDeveloper is performing");
+    }
+
+    @Override
+    public void reportStatus() {
+        System.out.println("FrontendDeveloper is reporting");
+    }
 }

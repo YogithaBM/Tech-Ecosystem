@@ -11,4 +11,19 @@ public class DevOps extends Entity {
     public void deployApplication(){
         System.out.println("DevOps is deploying the application");
     }
+
+    @Override
+    public void work() {
+        System.out.println("DevOps is working");
+    }
+
+    @Override
+    public void performRole() {
+        System.out.println("DevOps is performing");
+    }
+
+    @Override
+    public void reportStatus() {
+        System.out.println("DevOps is reporting");
+    }
 }

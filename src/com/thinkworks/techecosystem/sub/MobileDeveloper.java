@@ -11,4 +11,19 @@ public class MobileDeveloper extends Entity {
     public void developMobileApp(){
         System.out.println("MobileDeveloper is developing mobile apps");
     }
+
+    @Override
+    public void work() {
+        System.out.println("MobileDeveloper is working");
+    }
+
+    @Override
+    public void performRole() {
+        System.out.println("MobileDeveloper is performing");
+    }
+
+    @Override
+    public void reportStatus() {
+        System.out.println("MobileDeveloper is reporting");
+    }
 }
