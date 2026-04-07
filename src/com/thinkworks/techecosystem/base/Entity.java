@@ -13,14 +13,32 @@ public class Entity {
         this.name = name;
         this.entityType = entityType;
         this.salary = salary;
+
     }
 
     public Entity(){
 
     }
 
+    public void reportStatus(){
+        System.out.println("Entity is reposting status");
+    }
+
+    public void work(){
+        System.out.println("Entity is working");
+    }
+
+    public void performRole(){
+        System.out.println("Entity is performing its role");
+    }
+
     public void displayDetails(){
+
         System.out.println("Entity Details");
+        System.out.println("ID : "+id);
+        System.out.println("Name : "+name);
+        System.out.println("Entity type : "+entityType);
+        System.out.println("Salary : "+salary);
     }
 
     public int getId() {

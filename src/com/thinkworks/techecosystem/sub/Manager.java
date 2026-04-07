@@ -8,7 +8,7 @@ public class Manager extends Entity {
         super(id, name, EntityType.MANAGER, salary);
     }
 
-    public void manager(){
+    public void managing(){
         System.out.println("Manager is  managing team");
     }
 }

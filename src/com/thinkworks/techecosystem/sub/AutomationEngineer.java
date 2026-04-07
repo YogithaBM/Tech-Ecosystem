@@ -12,4 +12,18 @@ public class AutomationEngineer extends Entity {
         System.out.println("AutomationEngineer is writing automation scripts");
     }
 
+    @Override
+    public void work() {
+        System.out.println("is working");
+    }
+
+    @Override
+    public void performRole() {
+        System.out.println("is performing");
+    }
+
+    @Override
+    public void reportStatus() {
+        System.out.println("is reporting");
+    }
 }

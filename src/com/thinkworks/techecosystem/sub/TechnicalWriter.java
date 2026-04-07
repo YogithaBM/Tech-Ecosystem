@@ -9,6 +9,7 @@ public class TechnicalWriter extends Entity {
     }
 
     public void writeDocumentation(){
+
         System.out.println("TechnicalWriter is writing Documentation");
     }
 }

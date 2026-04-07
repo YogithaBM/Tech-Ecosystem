@@ -12,5 +12,18 @@ public class AIEngineer extends Entity {
         System.out.println("AI engineer is training the model");
     }
 
+    @Override
+    public void reportStatus() {
+        System.out.println("AI engineer is reporting");
+    }
 
+    @Override
+    public void work() {
+        System.out.println("AI engineer is working");
+    }
+
+    @Override
+    public void performRole() {
+        System.out.println("AI engineer is performing");
+    }
 }
